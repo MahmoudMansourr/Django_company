@@ -15,8 +15,8 @@ class Employee(models.Model):
     email = models.EmailField(null=True, blank=True)
     salary = models.DecimalField(max_digits=8, decimal_places=2, default=5000)
     hire_date = models.DateField(auto_now_add=True, null=True, blank=True)
-    # dept = models.ForeignKey(Department, null=True, blank=True,
-    #                          on_delete=models.CASCADE, related_name='dept_employee')
+    dept = models.ForeignKey(Department, null=True, blank=True,
+                             on_delete=models.CASCADE, related_name='dept_employee')
 
     def __str__(self):
         return self.first_name + ' ' + self.last_name
