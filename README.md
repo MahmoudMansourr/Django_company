@@ -45,7 +45,7 @@ To update an existing employee record, click the "Edit" button next to the emplo
 
 #### Delete
 
-To delete an existing employee record, click the "Delete" button next to the employee's name on the employees list page. You will be asked to confirm the deletion before the record is deleted.
+To delete an existing employee record, click the "Delete" button next to the employee's name on the employees list page.
 
 ### Department CRUD
 
@@ -65,7 +65,7 @@ To update an existing department record, click the "Edit" button next to the dep
 
 #### Delete
 
-To delete an existing department record, click the "Delete" button next to the department's name on the departments list page. You will be asked to confirm the deletion before the record is deleted.
+To delete an existing department record, click the "Delete" button next to the department's name on the departments list page.
 
 ### Employee-Department Relationship
 
